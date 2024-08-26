@@ -21,7 +21,8 @@ def download_file(url, file_path, timeout=30):
 
 
 # Step 1: Find all topic links on the main page
-topics_url = "https://kccncna2023.sched.com/list/descriptions/"
+topics_url = "https://kccncossaidevchn2024.sched.com/list/descriptions/"
+# topics_url = "https://colocatedeventseu2024.sched.com/list/descriptions/"
 response = requests.get(topics_url)
 topic_soup = BeautifulSoup(response.text, "html.parser")
 
