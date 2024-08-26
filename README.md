@@ -23,3 +23,4 @@ For KubeCon NA 2024, you can run
 ```
 docker run -e SCHED_LINK=https://kccncna2024.sched.com/list/descriptions/ ghcr.io/pacoxu/slides-crawl:latest
 ```
+download files will be inside  the container, and you can use volume or `docker cp` to get them to your PC.
