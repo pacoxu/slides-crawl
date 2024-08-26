@@ -19,4 +19,7 @@ python3 download_slides.py
 docker run ghcr.io/pacoxu/slides-crawl:latest
 ```
 
-For KubeCon NA 2024, you can run `docker run -e SCHED_LINK=https://kccncna2024.sched.com/ ghcr.io/pacoxu/slides-crawl:latest`.
+For KubeCon NA 2024, you can run 
+```
+docker run -e SCHED_LINK=https://kccncna2024.sched.com/list/descriptions/ ghcr.io/pacoxu/slides-crawl:latest
+```
