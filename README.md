@@ -1,4 +1,4 @@
-# slides-crawl (**Not Work after 2024-11-24**)
+# slides-crawl
 
 download all slides from sched.com event: kubecon/istiocon 
 
