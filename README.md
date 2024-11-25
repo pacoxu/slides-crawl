@@ -1,4 +1,5 @@
-# slides-crawl
+# slides-crawl (**Not Work after 2024-11-24**)
+
 download all slides from sched.com event: kubecon/istiocon 
 
 1. KubeCon China 2023: https://kccncosschn2023.sched.com/list/descriptions/
