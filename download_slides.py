@@ -21,10 +21,10 @@ def download_file(url, file_path, timeout=30):
 
 
 # Step 1: Find all topic links on the main page
-# topics_url = "http://localhost:8000/view-source_https___pytorch2023.sched.com_list_descriptions_.html"
-# topics_url = "https://colocatedeventsna2024.sched.com/list/descriptions/"
-topics_url = "https://kccncna2024.sched.com/list/descriptions/?iframe=no"
-# topics_url = "https://kcsna2024.sched.com/list/descriptions?iframe=no"
+# default_topics_url = "https://colocatedeventsna2024.sched.com/list/descriptions/"
+# default_topics_url = "https://kcsna2024.sched.com/list/descriptions?iframe=no"
+default_topics_url = "https://kccncna2024.sched.com/list/descriptions/?iframe=no"
+topics_url = os.getenv('SCHED_LINK', default_topics_url)
 response = requests.get(topics_url)
 topic_soup = BeautifulSoup(response.text, "html.parser")
 print(response.text)
