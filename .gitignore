@@ -1,2 +1,5 @@
 .DS_Store
 downloaded_slides/
+__pycache__/
+*.pyc
+*.pyo
