@@ -23,7 +23,7 @@ download all slides from sched.com event: kubecon/istiocon
 ### 2024 Events
 
 #### KubeCon + CloudNativeCon
-- **China 2024**: https://kccncosschn2024.sched.com/list/descriptions/
+- **China 2024**: https://kccncossaidevchn2024.sched.com/list/descriptions/
 - **Europe 2024**: https://kccnceu2024.sched.com/list/descriptions/
 - **North America 2024**: https://kccncna2024.sched.com/list/descriptions/
 - **India 2024**: https://kccncin2024.sched.com/list/descriptions/
