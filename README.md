@@ -37,7 +37,7 @@ download all slides from sched.com event: kubecon/istiocon
 #### KubeCon + CloudNativeCon
 - **Europe 2025**: https://kccnceu2025.sched.com/list/descriptions/
 - **North America 2025**: https://kccncna2025.sched.com/list/descriptions/
-- **China 2025**: https://kccncosschn2025.sched.com/list/descriptions/
+- **China 2025**: https://kccncchn2025.sched.com/list/descriptions/
 - **Japan 2025**: https://kccncjpn2025.sched.com/list/descriptions/
 - **India 2025**: https://kccncin2025.sched.com/list/descriptions/
 
