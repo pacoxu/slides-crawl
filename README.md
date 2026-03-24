@@ -60,7 +60,7 @@ download all slides from sched.com event: kubecon/istiocon
 You can test if a sched.com URL is accessible and contains slides using the validation script:
 
 ```bash
-python3 validate_url.py https://kccncna2024.sched.com/list/descriptions/
+python3 validate_url.py https://kccnceu2026.sched.com/list/descriptions/
 ```
 
 This will check if the URL is accessible and report how many slide files are available for download.
@@ -85,8 +85,8 @@ docker run ghcr.io/pacoxu/slides-crawl:latest
 You can specify which event to download from using the `SCHED_LINK` environment variable:
 
 ```bash
-# KubeCon North America 2024
-docker run -e SCHED_LINK=https://kccncna2024.sched.com/list/descriptions/ ghcr.io/pacoxu/slides-crawl:latest
+# KubeCon Europe 2026
+docker run -e SCHED_LINK=https://kccnceu2026.sched.com/list/descriptions/ ghcr.io/pacoxu/slides-crawl:latest
 
 # KubeCon Europe 2024
 docker run -e SCHED_LINK=https://kccnceu2024.sched.com/list/descriptions/ ghcr.io/pacoxu/slides-crawl:latest
@@ -95,7 +95,7 @@ docker run -e SCHED_LINK=https://kccnceu2024.sched.com/list/descriptions/ ghcr.i
 docker run -e SCHED_LINK=https://colocatedeventsna2024.sched.com/list/descriptions/ ghcr.io/pacoxu/slides-crawl:latest
 
 # Using Python directly
-export SCHED_LINK=https://kccnceu2025.sched.com/list/descriptions/
+export SCHED_LINK=https://kccnceu2026.sched.com/list/descriptions/
 python3 download_slides.py
 ```
 
@@ -105,5 +105,5 @@ Downloaded files will be saved in the `downloaded_slides/` folder (when running 
 
 ```bash
 # Mount a local directory to save downloads
-docker run -v $(pwd)/downloads:/app/downloaded_slides -e SCHED_LINK=https://kccncna2024.sched.com/list/descriptions/ ghcr.io/pacoxu/slides-crawl:latest
+docker run -v $(pwd)/downloads:/app/downloaded_slides -e SCHED_LINK=https://kccnceu2026.sched.com/list/descriptions/ ghcr.io/pacoxu/slides-crawl:latest
 ```
